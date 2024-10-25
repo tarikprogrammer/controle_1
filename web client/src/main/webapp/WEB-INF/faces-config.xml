@@ -1,0 +1,12 @@
+<faces-config>
+    <managed-bean>
+        <managed-bean-name>cdBean</managed-bean-name>
+        <managed-bean-class>com.tarik.controle1.model.CD</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>emprunter</managed-bean-name>
+        <managed-bean-class>com.example.BorrowBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+</faces-config>
